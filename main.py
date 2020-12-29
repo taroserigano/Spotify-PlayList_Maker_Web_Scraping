@@ -15,8 +15,8 @@ sp = spotipy.Spotify(
     auth_manager=SpotifyOAuth(
         scope="playlist-modify-private",
         redirect_uri="http://example.com",
-        client_id="4082aab925484318a9d4f32916204fde",
-        client_secret="858a92325ef740458da67eddf50d2502",
+        client_id="YOUR_ID",
+        client_secret="ENTERYOURS",
         show_dialog=True,
         cache_path="token.txt"
     )
